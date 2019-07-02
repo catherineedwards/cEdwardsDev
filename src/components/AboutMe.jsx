@@ -6,16 +6,10 @@ class AboutMe extends Component {
     return (
       <div className="aboutme">
         <h1>
-          About Me
+          Catherine Edwards
         </h1>
         <p>
-          Hello!
-        </p>
-        <p>
-          
-        </p>
-        <p>
-          
+          Web Developer | Wellington, NZ | <a href="https://www.integrationqa.com/">IntegrationQA</a>
         </p>
       </div>
     );
