@@ -1,16 +1,13 @@
 import React, { Component } from "react";
-import "../index.css";
+import './../App.css'
 
 class AboutMe extends Component {
   render() {
     return (
       <div className="aboutme">
-        <h1>
+        <h3>
           Catherine Edwards
-        </h1>
-        <p>
-          Web Developer | Wellington, NZ | <a href="https://www.integrationqa.com/">IntegrationQA</a>
-        </p>
+        </h3>
       </div>
     );
   }
