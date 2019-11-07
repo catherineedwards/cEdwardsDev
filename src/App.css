@@ -1,36 +1,29 @@
-html, body {
-  background: #101214;
+body {
   font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial;
-
 }
 
-.aboutme {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
-  height: 30%;
-  margin: auto;
-}
-
-.aboutme h1 {
+h3 {
+  font-size: 5em;
   text-align: center;
   color: white;
-  font-size: 25px;   
 }
 
-.aboutme p {
-  text-align: center;
+p {
   color: white;
-  font-size: 18px;
 }
 
-.aboutme a:link {
-  color: orange;
+.fp-section {
+  text-align: center;
 }
 
-.aboutme a:hover {
-  text-decoration: overline underline;
+button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 0.85em;
 }
